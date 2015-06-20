@@ -1,7 +1,7 @@
  
 /* start css.sty */
 .cmtt-10{font-family: monospace;}
-.cmbx-12{font-size:120%; font-weight: bold;}
+.cmbx-12{font-size:120%; font-weight: bold;text-align: center;display: inline-block;}
 .cmbx-12{ font-weight: bold;}
 .cmbx-12{ font-weight: bold;}
 .cmbx-10{ font-weight: bold;}
@@ -43,7 +43,7 @@ div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clea
 div.fbox {display:table}
 div.center div.fbox {}
 div.minipage{width:100%;}
-div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+div.center, div.center div.center {}
 div.center div {text-align: left;}
 div.flushright, div.flushright div.flushright {text-align: right;}
 div.flushright div {text-align: left;}
