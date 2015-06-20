@@ -12,7 +12,7 @@
 .cmbxsl-10{ font-weight: bold; font-style: oblique;}
 .cmbxsl-10{ font-weight: bold; font-style: oblique;}
 .cmti-10{ font-style: italic;}
-p.noindent { text-indent: 0em }
+p.noindent { text-indent: 0em; align: center;}
 td p.noindent { text-indent: 0em; margin-top:0em; }
 p.nopar { text-indent: 0em; }
 p.indent{ text-indent: 1.5em }
@@ -41,7 +41,7 @@ td.displaylines {text-align:center; white-space:nowrap;}
 div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
 .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
 div.fbox {display:table}
-div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.center div.fbox {}
 div.minipage{width:100%;}
 div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
 div.center div {text-align: left;}
@@ -58,7 +58,7 @@ span.thank-mark{ vertical-align: super }
 span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
 div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
 table.tabular td p{margin-top:0em;}
-table.tabular {margin-left: auto; margin-right: auto;}
+// table.tabular {margin-left: auto; margin-right: auto;}
 td p:first-child{ margin-top:0em; }
 td p:last-child{ margin-bottom:0em; }
 div.td00{ margin-left:0pt; margin-right:0pt; }
