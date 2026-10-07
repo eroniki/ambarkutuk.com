@@ -7,3 +7,7 @@
 
 /images/*
   Cache-Control: public, max-age=604800
+
+# Keep the workers.dev test addresses out of search; the real domains stay indexable
+https://:worker.:subdomain.workers.dev/*
+  X-Robots-Tag: noindex
